@@ -1,0 +1,46 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.card{
+    height: 300px;
+    width:200px;
+    border: 1px solid black;
+    position: absolute;
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+.card:hover{
+    z-index: 15;
+}
+#card1{
+    rotate: -24deg;
+}
+#card2{
+    rotate: -16deg;
+}
+#card3{
+    rotate: -8deg;
+}
+
+img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
